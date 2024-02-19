@@ -5,8 +5,11 @@ import ui.registerJframe;
 public class App {
     public static void main(String[] args) {
         //程序 启动入口
-        new loginJframe();
+//        new loginJframe();
+//        new gameJframe();
+//        new registerJframe();
+
         new gameJframe();
-        new registerJframe();
+
     }
 }
