@@ -55,6 +55,13 @@ public class gameJframe extends JFrame implements KeyListener, ActionListener {
     //创建公众号信息菜单项
     JMenuItem accoutItem = new JMenuItem("信息");
 
+    JMenuItem changeImage = new JMenuItem("更换图片");
+    JMenuItem girl = new JMenuItem("美女");
+    JMenuItem animal = new JMenuItem("动物");
+    JMenuItem sport = new JMenuItem("运动");
+
+
+
     private void initDate() {
         int[] tempArr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0};
         Random random = new Random();
@@ -164,10 +171,17 @@ public class gameJframe extends JFrame implements KeyListener, ActionListener {
 
 
 
+
+
 // 添加功能菜单项
+        functionJMenu.add(changeImage);
         functionJMenu.add(replayItem);
         functionJMenu.add(reLoginItem);
         functionJMenu.add(closeItem);
+
+//        changeImage.add(girl);
+//        changeImage.add(animal);
+//        changeImage.add(sport);
 
 
         //添加监听
